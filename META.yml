@@ -1,0 +1,26 @@
+---
+abstract: "Dumper with roles\r"
+author:
+  - 'Fayland Lam <fayland@gmail.com>'
+build_requires:
+  Test::More: 0
+distribution_type: module
+generated_by: 'Module::Install version 0.790'
+license: perl5
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: MooseX-Dumper
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  Data::Dumper: 0
+  Moose: 0.57
+  MooseX::Traits: 0
+  Perl::Tidy: 0
+  Text::InHTML: 0
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.01
